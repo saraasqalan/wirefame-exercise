@@ -68,6 +68,11 @@
   .placeholder {
     width: 100%;
   }
+  .button1
+  {background-color: black;
+  color: white;
+  border: 2px solid;
+  }
   
   footer {
     clear: both;
