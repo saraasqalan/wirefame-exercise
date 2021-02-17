@@ -20,19 +20,22 @@
   
   header nav {
     background-color: rgb(90, 89, 89);
-    width:max-content;
   }
   header nav ul {
     position:relative;
   }
-  header nav ul li {
-    display: inline-block;
-    padding-left: 80px;
-    padding-right: 80px;
+  header nav ul li  {
+    display:inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
     color: #f2f2f2;
-
+  }
+  header nav ul li a {
+    text-decoration: none;
+    color: #f2f2f2;
+  }
 
   }
   
@@ -70,6 +73,7 @@
   }
   .button1
   {background-color: black;
+    font-size: 18;
   color: white;
   border: 2px solid;
   }
@@ -80,4 +84,12 @@
     background-color: #ddd;
     margin-top: 20px;
     text-align: center;
+    
+  }
+  div {
+    height:400px;
+    width:480px;
+    border:1px solid #ccc;
+    font:16px/26px Georgia, Garamond, Serif;
+    overflow:auto;
   }
