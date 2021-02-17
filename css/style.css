@@ -68,11 +68,12 @@
   .placeholder {
     width: 100%;
   }
-  .button1
+  .button1:hover
   {background-color: black;
     font-size: 18;
   color: white;
   border: 2px solid;
+  h
   }
   
   footer {
